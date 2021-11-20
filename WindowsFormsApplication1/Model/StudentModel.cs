@@ -8,12 +8,12 @@ namespace WindowsFormsApplication1.Model
 {
     public class StudentModel
     {
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         public string Lastname { get; set; }
         public string Firstname { get; set; }
         public string Middlename { get; set; }
         public string Gender { get; set; }
-        public DateTime Birthday { get; set; }
+        public string Birthday { get; set; }
 
     }
 }
