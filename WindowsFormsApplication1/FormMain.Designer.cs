@@ -32,9 +32,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.MainPanel = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
-            this.MainPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -71,22 +69,12 @@
             // 
             // MainPanel
             // 
-            this.MainPanel.Controls.Add(this.button1);
             this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainPanel.Location = new System.Drawing.Point(205, 0);
             this.MainPanel.Name = "MainPanel";
             this.MainPanel.Padding = new System.Windows.Forms.Padding(10);
             this.MainPanel.Size = new System.Drawing.Size(791, 563);
             this.MainPanel.TabIndex = 2;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(297, 258);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(197, 46);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "User";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // FormMain
             // 
@@ -98,7 +86,6 @@
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.flowLayoutPanel1.ResumeLayout(false);
-            this.MainPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -109,6 +96,5 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Panel MainPanel;
-        private System.Windows.Forms.Button button1;
     }
 }
